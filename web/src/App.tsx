@@ -1,5 +1,5 @@
-function App() {
-  return <h1>Hello</h1>;
-}
+import { NotificationButton } from "./components/NotificationButton";
+
+const App = () => (<NotificationButton />);
 
 export default App;

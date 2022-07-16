@@ -9,8 +9,9 @@ const App = () => (
     <Header />
     <main>
       <section id="sales">
-        <div className="dsmeta-container"></div>
+        <div className="dsmeta-container">
         <SalesCard />
+        </div>
       </section>
     </main>
   </>
